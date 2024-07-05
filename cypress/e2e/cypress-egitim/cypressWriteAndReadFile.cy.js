@@ -1,5 +1,5 @@
 describe("Cypress write File kullanımı", () => {
-  it("Write File", () => {
+  it("Write Files", () => {
     cy.writeFile(
       "CypressWriteFileDoc/exampleFile.txt",
       "Sifirdan cypress derslerine hoş geldiniz. \n"
