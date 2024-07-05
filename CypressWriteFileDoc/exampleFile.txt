@@ -1,0 +1,2 @@
+Sifirdan cypress derslerine hoş geldiniz. 
+Bu eğitim Seviyesinde sıfırdan ileri seviye cypress öğreneceksiniz.

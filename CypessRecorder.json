@@ -1,0 +1,165 @@
+{
+    "title": "Cypess Recorder",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 789,
+            "height": 902,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://shopist.io/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://shopist.io/",
+                    "title": "Shop.ist"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(3) div.caps"
+                ],
+                [
+                    "xpath///*[@id=\"main\"]/div/div/a[3]/div/div[2]"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) div.caps"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 82.75,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://shopist.io/department/bedding",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.products > div:nth-of-type(2) img"
+                ],
+                [
+                    "xpath///*[@id=\"main\"]/div[2]/div[2]/div[1]/a/div/img"
+                ],
+                [
+                    "pierce/div.products > div:nth-of-type(2) img"
+                ]
+            ],
+            "offsetY": 145,
+            "offsetX": 248.390625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://shopist.io/department/bedding/product/20",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.purchase-button"
+                ],
+                [
+                    "xpath///*[@id=\"main\"]/section/div[2]/div/div/div[3]"
+                ],
+                [
+                    "pierce/div.purchase-button"
+                ],
+                [
+                    "text/Add to cart"
+                ]
+            ],
+            "offsetY": 16.953125,
+            "offsetX": 140.21875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a.cart > div > div"
+                ],
+                [
+                    "xpath///*[@id=\"__layout\"]/div/div[1]/div[1]/div/div[2]/a[2]/div/div"
+                ],
+                [
+                    "pierce/a.cart > div > div"
+                ]
+            ],
+            "offsetY": 21,
+            "offsetX": 41.5,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://shopist.io/cart",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.remove-button"
+                ],
+                [
+                    "xpath///*[@id=\"main\"]/section/div[2]/div[1]/div[3]/div/div/div/div[2]/div[1]/div[2]"
+                ],
+                [
+                    "pierce/div.remove-button"
+                ],
+                [
+                    "text/Remove"
+                ]
+            ],
+            "offsetY": 16,
+            "offsetX": 44.015625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/main navigation",
+                    "aria/[role=\"image\"]"
+                ],
+                [
+                    "div.navbar-large img"
+                ],
+                [
+                    "xpath///*[@id=\"__layout\"]/div/div[1]/div[1]/a/div/img"
+                ],
+                [
+                    "pierce/div.navbar-large img"
+                ]
+            ],
+            "offsetY": 19,
+            "offsetX": 360,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://shopist.io/",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
