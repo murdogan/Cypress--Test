@@ -1,4 +1,4 @@
-describe("Before After Kullanimi", () => {
+describe("Before After Kullanimı", () => {
   before(() => {
     cy.log("Before after Kullanımı");
     cy.visit("https://automationexercise.com/");
